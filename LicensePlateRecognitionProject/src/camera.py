@@ -1,4 +1,5 @@
 import cv2
+from plate_recognition import recognize_plate
 
 def open_camera(index=0):  # Añadimos el parámetro 'index' con un valor predeterminado de 0
     cap = cv2.VideoCapture(index)
